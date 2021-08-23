@@ -410,11 +410,12 @@ vendor/bin/hw/vendor.oneplus.hardware.hdcpkey@1.0-service
 vendor/etc/init/vendor.oneplus.hardware.hdcpkey@1.0-service.rc
 vendor/lib64/vendor.oneplus.hardware.hdcpkey@1.0.so
 
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+# HotwordEnrollment - from OnePlus8ProOxygen_15.E.39_OTA_0390_all_2107310114_8f0157e5d7e
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
+vendor/etc/seccomp_policy/codec2.vendor.base.policy|fbf54a1d121e08048d17c57ab1c471c388069fd3
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|aca670c20dfee58a96a471b64ea7d63a0a3fb812
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|59192e638ea3b13ee9005d730ce269db66a4d10a
 
 # IFAA
 -system_ext/priv-app/IFAAService/IFAAService.apk
@@ -544,7 +545,6 @@ vendor/lib/libsmwrapper.so
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
-vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/system_properties.xml
 vendor/lib64/libmmosal.so
 
