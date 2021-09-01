@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Charge control
+PRODUCT_PACKAGES += \
+    vendor.libxzr.chgctrl@1.0-service.oneplus_kona
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     ftm_power_config.sh \
