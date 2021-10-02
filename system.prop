@@ -57,6 +57,11 @@ ro.vendor.qti.core_ctl_min_cpu=2
 # Radio
 ro.telephony.default_network=33,22
 
+# SurfaceFlinger
+ro.surface_flinger.set_idle_timer_ms=1000
+ro.surface_flinger.set_touch_timer_ms=3000
+ro.sf.simple_dyn_refresh_rate=1
+
 # Touchscreen
 persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
