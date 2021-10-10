@@ -1,3 +1,4 @@
 <resources>
      <bool name="config_supportNRModeSwitcher">true</bool>
+     <bool name="config_cameraBrokenSecureLaunch">true</bool>
 </resources>
